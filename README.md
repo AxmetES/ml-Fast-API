@@ -4,8 +4,8 @@
 ### Установка и запуск
 1. Клонируйте репозиторий:
    ```bash
-   git clone <repository_url>
-   cd <repository_directory>
+   git clone <git@github.com:AxmetES/ml-Fast-API.git>
+   cd <ml-Fast-API>
    ```
 2. Запустите докер контейнер:
    ```bash
