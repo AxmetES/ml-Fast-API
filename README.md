@@ -15,7 +15,7 @@
 1. Приложение будет доступно по адресу: `http://localhost:8080`
 2. Пример запроса:
 ```http
-    POST http://localhost:8080/predict
+    POST http://localhost:8080/ml/predict
     Content-Type: application/json
 ```
 ```
@@ -29,4 +29,4 @@
       }
     }
 ```
-
+Полное тело запроса можно найти в файле `test.json` в папке files.
