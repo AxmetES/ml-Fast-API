@@ -53,7 +53,7 @@ def predict(row: Dict[str, Any]) -> Dict[str, Any]:
     decision_ru = "увольнение" if pred == 1 else "не увольнение"
 
     return {
-        "probability_leave": f"{round(proba * 100, 2)}%",
+        "probability_leave": f"{round(proba * 100, 2)} %",
         "decision": decision,
         "decision_ru": decision_ru,
         "risk_level": _risk_level(proba),
